@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Hidroponic Controller"
 Date "2021-06-10"
-Rev "v0.2"
+Rev "v0.3"
 Comp "by Luis Pereira"
 Comment1 ""
 Comment2 ""
@@ -538,17 +538,6 @@ Wire Wire Line
 	4600 6100 4600 6050
 Wire Wire Line
 	4600 6050 5000 6050
-$Comp
-L Device:Q_NPN_BCE Q1
-U 1 1 60D0EFE3
-P 3750 6550
-F 0 "Q1" H 3941 6596 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 3941 6505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 3950 6650 50  0001 C CNN
-F 3 "~" H 3750 6550 50  0001 C CNN
-	1    3750 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 6100 3850 6300
 Text Label 3900 6800 0    50   ~ 0
@@ -558,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 6800 3900 6800
 Text Label 3850 5600 2    50   ~ 0
-+5V
+POWER_Vin
 Wire Wire Line
 	3850 5800 3850 5700
 $Comp
@@ -582,7 +571,7 @@ U 1 1 60D46556
 P 3550 5950
 F 0 "D3" V 3504 6030 50  0000 L CNN
 F 1 "D" V 3595 6030 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 3550 5950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 3550 5950 50  0001 C CNN
 F 3 "~" H 3550 5950 50  0001 C CNN
 	1    3550 5950
 	0    1    1    0   
@@ -848,6 +837,17 @@ F 1 "D_Zener_x2_ACom_AKK" H 7950 4026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 3900 50  0001 C CNN
 F 3 "~" H 7950 3900 50  0001 C CNN
 	1    7950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q1
+U 1 1 60D0EFE3
+P 3750 6550
+F 0 "Q1" H 3941 6596 50  0000 L CNN
+F 1 "MPS2222" H 3941 6505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 3950 6650 50  0001 C CNN
+F 3 "~" H 3750 6550 50  0001 C CNN
+	1    3750 6550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,6 +1,6 @@
-update=Thu 08 Jul 2021 10:11:46 PM WEST
+update=Sat 26 Jun 2021 11:33:05 PM WEST
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=controller.net
+LastNetListRead=controller_v0_3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -27,7 +27,7 @@ MinViaDiameter=0.4
 MinViaDrill=0.2
 MinMicroViaDiameter=0.4
 MinMicroViaDrill=0.2
-MinHoleToHole=0.5
+MinHoleToHole=0.25
 TrackWidth1=0.2
 TrackWidth2=0.2
 TrackWidth3=0.3
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

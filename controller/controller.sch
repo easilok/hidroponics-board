@@ -79,7 +79,7 @@ $EndComp
 Wire Wire Line
 	10100 4000 10000 4000
 $Comp
-L LCP_MCU_Module:NodeMCU_ESP12E U2
+L controller-rescue:NodeMCU_ESP12E-LCP_MCU_Module U2
 U 1 1 60ABC8B2
 P 4950 2750
 F 0 "U2" H 4950 1561 50  0000 C CNN
