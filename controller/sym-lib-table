@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name LCP_MCU_Module)(type Legacy)(uri /home/luis/coisas/playground/kicad/library/LCP_MCU_Module.lib)(options "")(descr ""))
-  (lib (name controller-rescue)(type Legacy)(uri ${KIPRJMOD}/controller-rescue.lib)(options "")(descr ""))
+  (lib (name "LCP_MCU_Module")(type "Legacy")(uri "/home/luis/coisas/playground/kicad/library/LCP_MCU_Module.lib")(options "")(descr ""))
+  (lib (name "controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/controller-rescue.lib")(options "")(descr ""))
+  (lib (name "controller_v0_3-rescue")(type "Legacy")(uri "${KIPRJMOD}/controller_v0_3-rescue.lib")(options "")(descr ""))
 )
